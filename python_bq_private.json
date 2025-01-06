@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "projects-portfolio-446806",
+  "private_key_id": "7f4652b3d98cbba15f71d8e802134142bc8fbecc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUJr6vVC2Vl09L\nw2IB8s06koWYag+DU8oxcXxg7WEQRuJrQQ9AhD3CJ5mwxbIQPu2gF8aNhRKeYOYP\ndpJxlxhbA+/fq3JiTiXametoFWW1AACyFtwqSk3EkMnXl+TbA5s/IEo6vGY3Bygv\nKf3yhVCFzXJUqQ/dUkPVhDe3iXJtNi6kE1TsTr6cMojHLP39/vuGi3WVyOwhogBp\nx2fYav/JgJMRtYM8GdEmyUOSjdIheJ4HeFF8RCnXV6dqNRnLTTtE2J9TcEPffjY1\nRI78onTIFwRFX/RgI7SSm4ZjqyvUGzoBX07DuUcncgXRZ9/UzpalueX6S/5kPQyX\na+TensAbAgMBAAECggEAQ76xkmw3eDbOj/turv+ZEHSca4ymsoGNpdc+5/a1UYzJ\nHYWzeJ8h139swPmIQE7P85jUAvn09ZUssdBjuBkPInUx4oMtbf3VcaZH+T8n8LH1\nBuls2aZLihLQGWO8JUHUD8bgXTwvCbBj4RewK4LtsSRnN2ibE8oCtkpXvmiKHRwk\ng3TJcMsPG2NOr7URTNkY9t0vtfKg/O38rifdtodw8V+M/TgBnOQbRZ0dFvb0Q1p5\nIpr3Q6db1veCsTkxPb01bJyEM5Rq2/7YVMY5e3BIFAgfYjypVopar8HIjRKEg4xu\nQMy1A+HajaL/6ahIJpxb7nZ+tKpqHKKkEaZwZPXm+QKBgQD5CtnZZqtej+XycCyB\nTLkP01RVhflqN1dOiLu0ocxbSLamjOh1wduq1it3D2JcngBP9En2/GK/1VnHq3nz\nlDl7RYp14a/gUzWhPJF0cciHyH8RXDyDYsQ34DwjkNeUEp+2H1msJb5E+QZ3hUrz\nbjTtX2Al9VNBIV4ycyof/r1hCQKBgQDaFAyrU5NpqFDw8oTy6Q/H8b9BioGwnOO+\nNspRXX5MthGC6qaLz+MsS0QYDGO+vBq/1pEXZtORFllH7ZuzDRhY9Q+nsNo8wMWF\n1pHW/crtowUjmT1tyES5q1n1AZRAMwoVbMJ/jpyY5pCHUp/gflmUZU/+D87vzmAW\nkuIgh4H1AwKBgFzP1nBW+va62g+IDo4BcdacA4n76//RsA/slUe0JNzANJHNYbTB\nEoSQXJJ6gUXS/HrPp+EMHiEv+c2X8lL8oo92UyureEg5unrkf7DN1tYDupdVsJem\nb0oDn2YBzNW6Oxs8g8bMKiS6SdaxLkWahM8SBFshGm3jaZ+Tm9dgsGNBAoGAY5E3\n35k++sSQgBIaRVXHkMB9VA1K/ToEeTpG0TNgkOGnySAdfkQiMn0C0AAIInN7uw7a\nG9ckzV9o0ABaUDuwXB03UpbabVaOWHcJCyHA3xLJK+GxPEhtqF/lqIlaCJ3FAtcv\nTlHsiZrrbf15ZWQKvkgrZ5IMJ00Qbf4OJE/6M8UCgYAD/62+C5wNocszHBL1jMZn\nLDmTfqo0PE3IvNYF0uTY6C+n2D4kHr0LQqFleaBjQeme2FXvkAEzkDcwt7o2fJFJ\n8JG7dvmJtXVmG2lLX8tkdEYmCbMmJUKClZOLg9jY7qjAh/TmKzoHccKOCi8L/zzb\n/Q/VgKm+U0Jz0bP489THDA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "python-bigquery@projects-portfolio-446806.iam.gserviceaccount.com",
+  "client_id": "115201919835838559678",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python-bigquery%40projects-portfolio-446806.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
