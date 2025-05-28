@@ -26,7 +26,7 @@ chrome_options.add_argument("disable-infobars")
 chrome_options.add_argument("--disable-extensions")
 
 # Path to ChromeDriver
-driver_service = Service('/Users/tannerklein/Downloads/chromedriver-mac-arm64/chromedriver')
+driver_service = Service('chromedriver')
 
 # Initialize the WebDriver
 driver = webdriver.Chrome(service=driver_service, options=chrome_options)
@@ -93,15 +93,19 @@ time.sleep(5)
 jobs_df = pd.DataFrame(columns=["job_id", "job_description", "created_at"])
 
 # %%
-#loop through page 1-10
-for page_num in range(1,3):
-    css_selector = f'li[data-test-pagination-page-btn="{page_num}"]'
-    page_button = WebDriverWait(driver, 10).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, css_selector))
+for page_num in range(1, 3):  # or however many pages you want
+    try:
+        next_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, 'button[aria-label="View next page"]'))
         )
-    page_button.click()
+        next_button.click()
+        print(f"Clicked 'Next' to go to page {page_num + 1}")
+        time.sleep(random.uniform(2, 4))  # Allow the new page to load
+    except Exception as e:
+        print(f"Stopped at page {page_num}: {e}")
+        break
 
-    #attempt to find all of the job tiles on the linkedIn page
+        #attempt to find all of the job tiles on the linkedIn page
     try:
         # Wait for the <li> elements to load (with data-occludable-job-id attribute)
         li_elements = WebDriverWait(driver, 10).until(
