@@ -3,3 +3,4 @@ protobuf==6.31.0
 selenium==4.33.0
 google-cloud-bigquery==3.33.0
 pyarrow==20.0.0
+python-dotenv==1.1.1
